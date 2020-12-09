@@ -1,4 +1,4 @@
 {
-    "python.pythonPath": "/home/kneeraazon/venv/bin/python",
-    "compile-hero.disable-compile-files-on-did-save-code": false
+  "python.pythonPath": "/home/kneeraazon/venv/bin/python",
+  "compile-hero.disable-compile-files-on-did-save-code": false
 }
