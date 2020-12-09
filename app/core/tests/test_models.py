@@ -9,7 +9,7 @@ class ModelTest(TestCase):
         email = "test@gmail.com"
         password = "test123"
         user = get_user_model().objects.create_user(email=email, password=password)
-        self.assertEquals(user.email, email)
+        self.assertEqual(user.email, email)
         self.assertTrue(user.check_password(password))
         # ? thats is because the password will be encrypted
 
@@ -28,7 +28,7 @@ class ModelTest(TestCase):
     def test_new_superuser(self):
         """Test creating a new superuser"""
         user = get_user_model().objects.create_superuser(
-            "test@londonappdev.com", "test123"
+            "test@gmailhotmailyahoohaha.com", "test123"
         )
 
         self.assertTrue(user.is_superuser)
